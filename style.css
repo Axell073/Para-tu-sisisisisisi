@@ -1,0 +1,60 @@
+/* Fondo de primavera agradable */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #FFD6BA, #FFB3BA); /* Degradado suave de tonos cálidos */
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 1px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Sombra alrededor */
+}
+
+header {
+    padding: 20px;
+    background-color: #d28241; /* Tono cálido */
+    border-bottom: 3px solid #584d0d; /* Línea dorada */
+}
+
+h1 {
+    color: #FFD700; /* Dorado */
+    font-size: 3em;
+    margin: 0;
+}
+
+.image-container {
+    margin: 10px auto;
+    max-width: 50%;
+    text-align: center;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    border: 5px solid #FFD700; /* Borde dorado */
+    border-radius: 10px;
+}
+
+/* Nueva clase para la imagen con borde celeste pastel */
+.pastel-blue-border img {
+    border: 5px solid #B0E0E6; /* Borde celeste pastel */
+    border-radius: 10px;
+}
+
+.description {
+    margin-top: 20px;
+    font-size: 2em;
+    color: #FFD700; /* Dorado */
+    font-weight: bold;
+}
